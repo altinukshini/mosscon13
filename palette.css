@@ -1,0 +1,344 @@
+body {
+  color: #c9c9c9;
+  background-color: #fff;
+}
+
+h1 {
+  color: #5096D2;
+text-transform: uppercase;
+}
+
+h2 {
+  color: #5096D2;
+}
+
+h3 {
+  color: #4dabf5;
+
+}
+
+a:hover {
+  color: #4DABF5;
+}
+
+.form-submit {
+  background-color: #ffffff;
+  color: #333;
+    border: 2px solid #C9C9C9;
+/*  visibility: hidden;*/
+}
+
+.form-submit:hover {
+  background-color: #ebebeb;
+  color: #333;
+  border: 2px solid #C7c7c7;
+/*  visibility: hidden;*/
+}
+
+.site-name {
+  color: #ffffff;
+}
+
+.site-slogan {
+  color: #ffffff;
+}
+
+.wrapper-footer {
+  color: #ffffff;
+}
+
+.deco-page-top .layer-a {
+  background-color: #a42470;
+}
+
+.sidebar-left {
+}
+
+.sidebar-right {
+}
+
+.stack-messages a {
+  color: #444444;
+}
+
+.menu-dropdown .menu .menu {
+  border-color: #5096D2;
+}
+
+.menu-dropdown .menu .expanded a {
+  border-color: transparent;
+}
+
+.menu-dropdown .menu .menu a {
+  color: #212121;
+}
+
+#block-feedback-feedback a {
+  background-color: #5096D2;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+th {
+}
+
+td {
+}
+
+.stack-messages,.stack-messages ul,.stack-messages ul li {
+}
+/*
+.wrapper-content .stack {
+  background-color: #ffffff;
+}*/
+
+.wrapper-content .stack {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+}
+
+
+#block-feedback-feedback a:hover {
+  background-color: #444444;
+}
+
+.controls.buttons a.activeSlide {
+  background-color: #4E96D1;
+}
+
+.stack-navigation .menu .expanded:hover a {
+  background-color: #ffffff;
+}
+
+.stack-navigation .menu .expanded:hover li a {
+  background-color: transparent;
+}
+
+.stack-navigation .menu .menu {
+  background-color: #ffffff;
+}
+
+a:hover {
+ color: #4DABF5;
+}
+a {
+  color: #4E96D1;
+}
+
+a:link {
+  color: #4E96D1;
+}
+
+a:visited {
+  color: #4E96D1;
+}
+
+.node-faq-item h2.faq-item-inline-question-title a:active {
+  color: #4E96D1;
+}
+
+a:focus {
+  color: #444444;
+}
+
+a:active {
+  color: #444444;
+}
+
+.active {
+  color: #444444;
+}
+
+li a.active {
+  color: #444444;
+}
+
+.stack-breadcrumb a {
+  color: #444444;
+}
+
+.stack-breadcrumb a:link {
+  color: #444444;
+}
+
+.stack-breadcrumb a:visited {
+  color: #444444;
+}
+
+.stack-breadcrumb a:hover {
+  color: #444444;
+}
+
+.stack-breadcrumb a:focus {
+  color: #444444;
+}
+
+.stack-breadcrumb a:active {
+  color: #444444;
+}
+
+.stack-messages a:link {
+  color: #444444;
+}
+
+.stack-messages a:visited {
+  color: #444444;
+}
+
+.wrapper-header {
+  color: #ffffff;
+}
+
+.wrapper-header a {
+  color: #ffffff;
+}
+
+.wrapper-header a:visited {
+  color: #ffffff;
+}
+
+.menu-dropdown .menu .expanded:hover > a {
+  color: #5096D2;
+  border-color: #5096D2;
+}
+
+.menu-dropdown .menu .active-trail > a {
+  color: #ffffff;
+}
+
+.menu-dropdown .menu .active-trail:hover > a {
+  color: #5096D2;
+}
+
+.menu-dropdown .menu .menu a:visited {
+  color: #212121;
+}
+
+.menu-dropdown .menu .menu a:focus {
+  color: #212121;
+}
+
+.menu-dropdown .menu .menu a:active {
+  color: #a42470;
+}
+
+.menu-dropdown .menu .menu li:hover > a {
+  color: #5096D2;
+}
+
+.menu-dropdown .menu .menu a.active {
+  color: #a42470;
+}
+
+.menu-dropdown .menu .menu li:hover > a.active {
+  color: #5096D2;
+}
+
+.menu-dropdown .menu .menu .active-trail > a {
+  color: #a42470;
+}
+
+.menu-dropdown .menu .menu .active-trail:hover > a {
+  color: #5096D2;
+}
+
+.wrapper-footer h2 {
+  color: #4dabf5;
+}
+
+.wrapper-footer h3 {
+  color: #ffffff;
+}
+
+.wrapper-footer a {
+  color: #ffffff;
+}
+
+.wrapper-footer a:link {
+  color: #ffffff;
+}
+
+.wrapper-footer a:visited {
+  color: #ffffff;
+}
+
+.wrapper-header a:hover {
+  color: #ffffff;
+}
+
+.wrapper-header a:focus {
+  color: #ffffff;
+}
+
+.wrapper-header a:active {
+  color: #ffffff;
+}
+
+.wrapper-header a.active {
+  color: #ffffff;
+}
+
+.stack-navigation a {
+  color: #e1267c;
+}
+
+.stack-navigation a:visited {
+  color: #e1267c;
+}
+
+.stack-navigation a:hover {
+  color: #ffffff;
+}
+
+.stack-navigation a:focus {
+  color: #ffffff;
+}
+
+.stack-navigation a:active {
+  color: #ffffff;
+}
+
+.stack-navigation a.active {
+  color: #ffffff;
+}
+
+h5 {
+  color: #c7c7c7;
+}
+
+h6 {
+  color: #c7c7c7;
+}
+
+fieldset legend {
+  color: #c7c7c7;
+}
+
+fieldset label {
+  color: #c7c7c7;
+}
+
+.block h2 {
+  color: #4dabf5;
+}
+
+h4 {
+  color: #4dabf5;
+}
+
+th.active {
+}
+
+tr.even td {
+}
+
+table tbody tr.even td.active {
+}
+
+table tbody tr.odd td.active {
+}
+
+
+body {
+  border-color: #444444;
+  background-color: #212121;
+}
