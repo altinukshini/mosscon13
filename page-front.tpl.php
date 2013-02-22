@@ -24,7 +24,14 @@
       });
     </script>
   <![endif]-->
-
+<style type="text/css">
+.title, .title a {
+    display: none;
+}
+.pane:first-child {
+    margin-top: -10px;
+}
+</style>
 <script type="text/javascript">
   jQuery(document).ready(function($) {
     $("#superfish ul.menu").superfish({ 

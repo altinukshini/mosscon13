@@ -1048,7 +1048,7 @@ text-decoration:underline;
 text-decoration:none;
 }
 
-/*#slideshow-bottom {
+#slideshow-bottom {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
     bottom: 0;
     color: #EBEBEB;
@@ -1062,7 +1062,9 @@ text-decoration:none;
     width: 970px;
     z-index: 3;
     border-radius: 5px 5px 5px 5px;
-}*/
+}
+
+/*
 #slideshow-bottom {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
     bottom: 0;
@@ -1077,7 +1079,7 @@ text-decoration:none;
     width: 970px;
     z-index: 3;
     border-radius: 5px 5px 5px 5px;
-}
+}*/
 
 /* Preface first + Preface middle + Preface last regions
 -------------------------------------------------------------- */
@@ -1108,7 +1110,7 @@ padding-left:15px;
 padding-right:15px;
 }
 
-/*#mission {
+#mission {
     color: #EBEBEB;
     display: block;
     font-size: 28px;
@@ -1117,8 +1119,10 @@ padding-right:15px;
     text-align: center;
     width: 930px;
 }
-*/
-#mission {
+#mission a{
+		color:white;
+}
+/*#mission {
     color: #EBEBEB;
     display: block;
     font-size: 14px;
@@ -1127,7 +1131,7 @@ padding-right:15px;
     text-align: center;
     width: 930px;
     text-align: left;
-}
+}*/
 
 
 /* Content regions
@@ -1836,12 +1840,18 @@ background-color:#fcfcfc;
 
 th {
 text-align:left;
-background: #E6E6E6;
+background: black;
 }
 
 tr td, tr th {
-border:1px solid #bbb;
+border:1px solid #999;
 padding: 0 6px;
+}
+
+tr.even, tr.odd {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #444444;
+    padding: 0.1em 0.6em;
 }
 
 td.active {
