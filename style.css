@@ -78,10 +78,14 @@
   padding-bottom: 2.7692em;
 }*/
 
+.restrict-inner {
+	width: 970px;
+	margin: 0 auto;
+}
+
 .page-width {
   margin: 0 auto;
   text-align: left;
-  width: 970px;
 }
 
 .wrapper {
@@ -325,9 +329,9 @@
 #preheader_first {
     background: none repeat scroll 0 0 black;
     height: 35px;
-    margin-bottom: 60px;
+    margin-bottom: 7px;
     margin-top: -18px;
-    width: 970px;
+    width: 100%;
 }
 #search-block-form {
     float: right;
@@ -650,7 +654,6 @@ font-size: 1em;
 #header {
 height: auto;
 position: relative;
-width: 970px;
 margin: 0 auto;
 }
 
@@ -660,14 +663,21 @@ float: left;
 
 #header-first {
     float: left;
-    margin-top: 25px;
-    text-align: center;
-    width: 970px;
+    margin-top: 0;
+    width: 100%;
+}
+.logo {
+	display: inline-block;
 }
 .logo img {
     clear: both;
     /*margin: 30px auto 0;*/
-    width: 750px;
+    width: 365px;
+}
+.header-show-dates-location {
+	float:right;
+	font-size: 19px;
+	padding-top: 22px;	
 }
 
 /*#header-middle {
@@ -986,7 +996,11 @@ background: transparent;
 
 /* slideshow + Preface top + Slideshow
 -------------------------------------------------------------- */
-
+/* hide slideshow until content is ready */
+#slideshow-wrapper, #slideshow-wrapper * {
+	display:none;
+	visibility:hidden;
+}
 #slideshow-wrapper{
 /*width:100%;*/
 background: transparent;
@@ -1143,8 +1157,9 @@ margin: 15px auto 10px;
 }
 
 #content {
-width: 100%;
-float: left;
+	width: 970px;
+	float: none;
+	margin: 20px auto 0 auto;
 }
 
 
@@ -2416,6 +2431,37 @@ font-size: 12px;
 font-weight:normal;
 }
 
+
 #subnav li a:hover {
 color: #cc6600;
+}
+
+/*******************
+ 
+ 	superfish overrides
+********************/
+#block-superfish-1 {
+	background: transparent url(images/main-menu-bg.png);
+	height: auto;
+	margin-top: 0;
+	color: #000;
+	width: 100%;
+}
+.sf-menu.sf-style-default li li {
+	background: transparent url(images/main-menu-bg.png);
+	border-top: 1px solid #000;
+}
+	.sf-menu.sf-style-default li li a {
+		color: #000;
+	}
+
+
+.sf-menu.sf-style-default {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.sf-menu.sf-style-default a, 
+.sf-menu.sf-style-default a:visited {
+	color: #000;
 }

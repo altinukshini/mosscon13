@@ -95,7 +95,9 @@
                     
                           <?php if ($preheader_first): ?>
                             <div id="preheader_first" class="region">
-                              <?php print $preheader_first ?>
+                            	<div class="restrict-inner">
+                              	<?php print $preheader_first ?>
+                              </div>
                             </div>
                           <?php endif; ?>
 
@@ -110,7 +112,33 @@
           </div>
         <?php endif; ?>
 
+				<?php if ($site_name || $logo || $site_slogan): ?>
 
+                <div id="header-first">
+                	<div class="restrict-inner">
+											<?php if ($logo): ?> 
+                      <div class="logo">
+                          <a href="<?php print $base_path ?>" title="<?php print t('Home') ?>">
+                          <img src="<?php print $logo ?>" alt="<?php print t('Home') ?>"/></a>
+                      </div>
+                      <div class="header-show-dates-location">
+                        <p>May 18 - 19, 2013 | University of Louisville | Louisville, Kentucky</p>
+                      </div>
+                      <?php endif; ?>
+                	</div>
+                </div><!-- /header-first -->
+
+                <!--<div id="header-middle">
+                    <?php if ($site_name): ?><h2 class="logo-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+										<?php print $site_name; ?></a></h2><?php endif; ?>
+                    <?php if ($site_slogan): ?><div class='logo-text'><?php print $site_slogan; ?></div><?php endif; ?>
+                </div>--><!-- /header-middle -->
+
+                <!-- <div id="search-box">
+                    <?php print $search_box; ?>
+                </div> --><!-- /search-box -->
+        <?php endif; ?>
+        
         <?php if ($header_region): ?>
            <div id="header-region" class="tb-region tb-scope">
             <?php print $header_region ?>
@@ -119,8 +147,9 @@
         <!-- /Custom added Regions-->
 
 
+
         <!-- Login/Register & RSS section in Header -->
-        <div id="authorize">
+        <!--<div id="authorize">
             <ul>
                 <?php
                     global $user;
@@ -135,29 +164,11 @@
                 ?>
             </ul>
             <?php print $feed_icons; ?>
-        </div>
+        </div>-->
         <!-- / Login/Register & RSS section in Header -->
 
 
-        <?php if ($site_name || $logo || $site_slogan): ?>
-
-                <div id="header-first">
-                    <?php if ($logo): ?> 
-                    <div class="logo">
-                        <a href="<?php print $base_path ?>" title="<?php print t('Home') ?>"><img src="<?php print $logo ?>" alt="<?php print t('Home') ?>"/></a>
-                    </div>
-                    <?php endif; ?>
-                </div><!-- /header-first -->
-
-                <div id="header-middle">
-                    <?php if ($site_name): ?><h2 class="logo-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h2><?php endif; ?>
-                    <?php if ($site_slogan): ?><div class='logo-text'><?php print $site_slogan; ?></div><?php endif; ?>
-                </div><!-- /header-middle -->
-
-                <!-- <div id="search-box">
-                    <?php print $search_box; ?>
-                </div> --><!-- /search-box -->
-        <?php endif; ?>
+        
 
 </div> <!-- /header -->
 <!-- <div style="clear:both"></div> -->
