@@ -404,24 +404,6 @@
     color: #5096D2 !important;
 }
 
-#block-superfish-1 {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
-    float: left;
-    height: 65px;
-    margin-top: 6px;
-    width: 970px;
-}
-
-.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
-    margin-top: 13px;
-}
-
-
-.sf-menu.sf-style-default li li {
-    margin-bottom: -16px;
-    margin-top: 16px;
-}
-
 
 /*--------------------------*/
 #main .username a {
@@ -590,7 +572,7 @@ text-decoration: none;
 }
 
 a:hover {
-color:#cc6600;
+color:#cc6600;	
 }
 
 blockquote {
@@ -903,6 +885,10 @@ text-transform:uppercase;
 padding-right:30px;
 padding-left:30px;
 padding-top:11px;
+}
+
+.sf-depth-1 a:hover {
+	background-color: #4E96D1;
 }
 
 #superfish .menu li {
@@ -2441,6 +2427,38 @@ color: #cc6600;
  	superfish overrides
 ********************/
 #block-superfish-1 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    float: left;
+    height: 65px;
+    margin-top: 6px;
+    width: 970px;
+}
+
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
+    padding-top: 13px;
+		color: #000;
+		-webkit-transition: background linear 300ms; /* property duration timing-function delay */
+    -moz-transition: background linear 300ms;
+    -o-transition: background linear 300ms;
+    transition: background linear 300ms;
+}
+
+.sf-menu.sf-style-default li a.active {
+	background-color: rgba(78, 150, 209, 0.4);
+	color: #000;
+}
+
+.sf-menu.sf-style-default a:hover {
+	background-color: rgba(78, 150, 209, 0.4);
+	color: #000;
+}
+
+.sf-menu.sf-style-default li li {
+    margin-bottom: -16px;
+    margin-top: 16px;
+}
+
+#block-superfish-1 {
 	background: transparent url(images/main-menu-bg.png);
 	height: auto;
 	margin-top: 0;
@@ -2461,7 +2479,5 @@ color: #cc6600;
 	margin: 0 auto;
 }
 
-.sf-menu.sf-style-default a, 
-.sf-menu.sf-style-default a:visited {
-	color: #000;
-}
+
+
